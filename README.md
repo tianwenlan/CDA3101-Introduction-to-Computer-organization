@@ -38,14 +38,18 @@ Transform the following code into MIPS instructions. The programs should run cor
     if ( num == reverse )
     
 	    printf("%d is a palindrome number.\n", num);
+	    
     else
+    
 	    printf("%d is not a palindrome number.\n", num);
 
 2. Greatest Common Divisor(GCD), and Least Common Multiple (LCM)
   - Assume the product of two input values is a 32‐bit integer. However, 10% extra credit will be given if the program can handle any 32‐bit input value of ‘n1’ and ‘n2’ that may produce an LCM bigger than a 32‐bit integer. Also, assume two inputs are positive integers except 0.
   
   - Code Snippet:
+  - 
 	    // Calculates the greatest common divisor
+
 	    int gcd(int number1, int number2) {
 
 	    	    int remainder = number1 % number2;
